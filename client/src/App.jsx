@@ -4,6 +4,8 @@ import OverviewCounter from "./OverviewCounter/OverviewCounter";
 import OurVision from "./components/Navbar/OurVision/OurVision";
 import Navbar from "./components/Navbar/Navbar";
 import Banner from "./components/Navbar/Banner/Banner";
+import Banner2 from "./components/Navbar/Banner/Banner2";
+import VideoBanner from "./components/VideoBanner/VideoBanner";
 
 const App = () => {
   return (
@@ -14,6 +16,8 @@ const App = () => {
         <OverviewCounter />
         <OurVision/>
         <Banner/>
+        <Banner2/>
+        <VideoBanner/>
       </main>
     </>
   );
