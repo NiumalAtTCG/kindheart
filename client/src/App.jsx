@@ -6,6 +6,8 @@ import Navbar from "./components/Navbar/Navbar";
 import Banner from "./components/Navbar/Banner/Banner";
 import Banner2 from "./components/Navbar/Banner/Banner2";
 import VideoBanner from "./components/VideoBanner/VideoBanner";
+import Blogs from "./components/Blogs/Blogs";
+import Footer from "./components/Foooter/Footer";
 
 const App = () => {
   return (
@@ -18,6 +20,8 @@ const App = () => {
         <Banner/>
         <Banner2/>
         <VideoBanner/>
+        <Blogs/>
+        <Footer/>
       </main>
     </>
   );
